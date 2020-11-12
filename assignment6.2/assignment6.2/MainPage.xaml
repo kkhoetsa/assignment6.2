@@ -5,7 +5,7 @@
 
     <StackLayout>
         <Frame BackgroundColor="DarkGreen" Padding="24" CornerRadius="50">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Kananelo's Bank" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Entry x:Name="DepositAmountEntry" Placeholder="Deposit Money" Keyboard="Numeric"/>
         <Entry x:Name="DepositReasonEntry" Placeholder="Deposit Reason"/>
