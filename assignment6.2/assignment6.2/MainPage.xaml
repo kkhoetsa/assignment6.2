@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="assignment6._2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkGreen" Padding="24" CornerRadius="50">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry x:Name="DepositAmountEntry" Placeholder="Deposit Money" Keyboard="Numeric"/>
+        <Entry x:Name="DepositReasonEntry" Placeholder="Deposit Reason"/>
+        <Button x:Name="DepositButton" Text="Deposit" Clicked="DepositButton_Clicked" BackgroundColor="DarkGreen"/>
+        <Entry x:Name="WithdrawAmountEntry" Placeholder="Withdraw Money" Keyboard="Numeric"/>
+        <Entry x:Name="WithdrawReasonEntry" Placeholder="Withdraw Reason"/>
+        <Button x:Name="WithdrawalButton" Text="Withdrawal" Clicked="WithdrawalButton_Clicked" BackgroundColor="DarkGreen"/>
+
+        <Button x:Name="DisplayTransactionsButton" Text="Transactions" Clicked="DisplayTransactionsButton_Clicked" BackgroundColor="DarkGreen"/>
+        <Label x:Name="DisplayTransactionsLabel"/>
+
+
+    </StackLayout>
+</ContentPage>
